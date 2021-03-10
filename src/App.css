@@ -13,17 +13,20 @@
   }
 }
 
-.App-header {
+.App-container {
+  display: flex;
+  flex-direction: row;
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.text-area {
+  height: 300px;
+  width: 600px;
+}
 .App-link {
   color: #61dafb;
 }

@@ -1,0 +1,4 @@
+Deal Announcement Date = dealDate
+Company Website = companyURL
+Company Name  = companyName
+Deal News. Tag line/Title = newsTitle
