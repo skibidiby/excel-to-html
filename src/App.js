@@ -72,7 +72,7 @@ News Source
       promise.then((d) => {
         this.setState({ items: d }, () => {
           this.state.items.forEach((element) => {
-            // console.log("yp", element["Company Name"]);
+            // console.log("yp", element);
 
             companyURL = element["Company Website"];
             companyName = element["Company Name"];
@@ -98,7 +98,7 @@ News Source
 `;
             // console.log("yp", htmlPanel);
             htmlStr = htmlStr + htmlPanel;
-            console.log("hey", htmlStr);
+            // console.log("hey", htmlStr);
           });
           htmlStr = htmlStr + htmlFooter
           this.setState({ htmlStr: htmlStr, generated: true });
@@ -132,6 +132,7 @@ News Source
            ''
           )}
         </div>
+        <a href="mailto:skibidiby@outlook.com">Contact me</a>
       </div>
     );
   }
